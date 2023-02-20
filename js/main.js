@@ -7,4 +7,5 @@ button.addEventListener('click', ()=> {
     const color = prompt('enter your favourite color', '');
     const password = `${name}${lastName}${color}` 
     passwordText.innerText = `Your Password is: \r\n ${password}`
+    console.log(`Your Password is: ${password}`)
 })
