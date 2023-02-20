@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #333232;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.btn {
+    padding: 0.625rem 1.25rem;
+    background-color: #4682b4;
+    color: inherit;
+    font-family: inherit;
+    border-radius: 1.25rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity .3s ease-in-out;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
